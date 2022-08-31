@@ -1,0 +1,72 @@
+<html>
+<head><title>contact us</title></head>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	width: 700px;
+	height: 370px;
+	background: #fff;
+	position: absolute;
+	left: 17%;
+    top: 25%;
+    border: 15px solid blue;
+}
+h3{
+	padding-top: 23px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 23px;
+}
+input{
+	margin-left: 22px;
+	border-radius: 2px;
+	position: relative;
+	left: 34px;
+	top: 20px;
+	width: 89%;
+	height: 28px;
+	margin: 14px 0;
+	border: none;
+	border-bottom: 1px solid red;
+}
+p{
+	position: absolute;
+	top: 22px;
+}
+.button{
+	width: 72px;
+	cursor: pointer;
+	background-color: yellow;
+	border-radius: 7px;
+	height: 40px;
+	box-shadow: 7px 6px 9px 3px black;
+	border: none;
+	position: relative;
+	top:80px;
+	right: 40px;
+}
+</style>
+<body bgcolor="black">
+<div class="hero">
+<h3><i>what is your complain</i></h3>
+<form>
+
+<input type="text" name="nameid" placeholder="name id" required>
+
+<input type="email" name="passwordid" placeholder="email" required>
+<input type="text" name="message" placeholder="complain" required>
+<input type="file" placeholder="file" name="screenshot" required>
+<button class="button" type="submit" onclick="btn()">submit</button>
+</form>
+</div>
+<script type="text/javascript">
+function btn(){
+	alert('an error occured')
+}
+</script>
+</body>
+</html>
